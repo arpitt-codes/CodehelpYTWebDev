@@ -1,4 +1,4 @@
-let src = {
+ let src = {
     age:12,
     wt:68,
     ht:180
@@ -14,7 +14,7 @@ for(let key in src) {
 }
 
 src.age = 90;
-
+                                   //in cpp we use free keyword to free up heap mem  in javascript garbage  collecotr keeps running in background to free up memory not in use it works automatically unlike free keyword which we use manually
 console.log("src: ", src);
 console.log("dest: ", dest);
 
