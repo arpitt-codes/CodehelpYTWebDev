@@ -41,7 +41,7 @@ console.log("dest: ", dest);
 
 // console.log(obj)
 
-// obj.color = "White";
+// obj.color = "White";         //obj are dynamic in nature we can add elements in  objects after creating them
 
 // console.log(obj)
 
